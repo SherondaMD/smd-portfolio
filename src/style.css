@@ -123,7 +123,8 @@ a:hover {
 }
 
 @media (max-width: 450px) {
-  .special-heading {
+  .special-heading,
+  .about-heading {
     font-size: 45px;
   }
 
@@ -131,15 +132,17 @@ a:hover {
     display: none;
   }
 
-  .text-start {
-    margin-top: 20px;
-  }
   .paragraph {
     text-align: center;
   }
 
   .text-start.p-3 {
-    text-align: center
-    color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-me {
+    font-size: 30px;
   }
 }
