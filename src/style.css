@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 76px;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
+  background: white;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -120,4 +120,26 @@ p {
 a:hover {
   cursor: pointer;
   color: blue;
+}
+
+@media (max-width: 450px) {
+  .special-heading {
+    font-size: 45px;
+  }
+
+  .img-fluid.rounded {
+    display: none;
+  }
+
+  .text-start {
+    margin-top: 20px;
+  }
+  .paragraph {
+    text-align: center;
+  }
+
+  .text-start.p-3 {
+    text-align: center
+    color: blue;
+  }
 }
